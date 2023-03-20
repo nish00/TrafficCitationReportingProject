@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1024.0" prefWidth="1440.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d9d9d9" height="1024.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="1440.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="721.0" layoutX="398.0" layoutY="195.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="644.0">
+         <effect>
+            <DropShadow height="25.69" offsetY="4.0" radius="9.6725" width="15.0">
+               <color>
+                  <Color opacity="0.20000000298023224" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#001f6d" height="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1440.0" />
+      <Text fill="WHITE" layoutX="959.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TRAFFIC CITATION AND REPORTING SYSTEM" wrappingWidth="447.107421875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#4a4a4a" layoutX="597.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Driving School Registration" wrappingWidth="246.107421875">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Line endX="1010.0" endY="291.0" layoutX="4.0" layoutY="112.0" startX="421.0" startY="291.0" />
+      <Text fill="#4a4a4a" layoutX="431.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="License Number:" wrappingWidth="150.107421875">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="581.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LN123498" wrappingWidth="93.8603515625">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="433.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name: " wrappingWidth="77.107421875">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="433.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name: " wrappingWidth="77.107421875">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="433.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date of Birth:" wrappingWidth="87.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="503.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kent" wrappingWidth="77.107421875">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="503.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clark" wrappingWidth="77.107421875">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="520.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1985/07/15" wrappingWidth="87.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="433.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age:" wrappingWidth="30.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="462.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="37" wrappingWidth="30.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="433.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address:" wrappingWidth="57.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="492.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10 Downing Street" wrappingWidth="127.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="433.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="License Expiration Date:" wrappingWidth="150.107421875">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="584.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2024/01/01" wrappingWidth="150.107421875">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="433.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="License Type: " wrappingWidth="150.107421875">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="520.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B1" wrappingWidth="150.107421875">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" fill="#4a4a4a" layoutX="420.0" layoutY="1101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* You can also register for driving school as an alterate for payment" wrappingWidth="414.107421875">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Text>
+      <Text fill="#4a4a4a" layoutX="434.0" layoutY="447.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Warrant Number:" wrappingWidth="150.107421875">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="584.0" layoutY="447.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23WRTL" wrappingWidth="93.8603515625">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="435.0" layoutY="472.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Class timings" wrappingWidth="150.107421875">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <CheckBox layoutX="435.0" layoutY="487.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="210.0" text="        8 Hour Class" />
+      <CheckBox layoutX="435.0" layoutY="525.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="210.0" text="        4 Hour Class X 2 days" />
+      <Text accessibleHelp="0" layoutX="435.0" layoutY="581.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Custom Date" wrappingWidth="150.107421875">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <DatePicker layoutX="434.0" layoutY="592.0" />
+      <Text accessibleHelp="0" layoutX="787.0" layoutY="581.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Custom Time" wrappingWidth="150.107421875">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <TextField layoutX="787.0" layoutY="592.0" />
+      <Button fx:id="MakePaymentButton" layoutX="573.0" layoutY="845.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="137.0" style="-fx-background-color: #5e5e5e;" text="Register" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow offsetY="2.0" radius="8.5" width="15.0">
+               <color>
+                  <Color opacity="0.4000000059604645" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button fx:id="MakePaymentButton1" layoutX="652.0" layoutY="1060.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="137.0" style="-fx-background-color: #8cb969;" text="Success" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow offsetY="2.0" radius="8.5" width="15.0">
+               <color>
+                  <Color opacity="0.4000000059604645" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button fx:id="MakePaymentButton2" layoutX="730.0" layoutY="845.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="137.0" style="-fx-background-color: #5e5e5e;" text="Cancel" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow offsetY="2.0" radius="8.5" width="15.0">
+               <color>
+                  <Color opacity="0.4000000059604645" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Text accessibleHelp="0" fill="#4a4a4a" layoutX="425.0" layoutY="966.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* Please take Screenshot of this screen as a proof of registration" wrappingWidth="456.107421875">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
