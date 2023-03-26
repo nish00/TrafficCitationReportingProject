@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1024.0" prefWidth="1440.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d9d9d9" height="934.0" layoutY="90.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="246.0" />
+      <Rectangle fill="#001f6d" height="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1440.0" />
+      <Text fill="WHITE" layoutX="959.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TRAFFIC CITATION AND REPORTING SYSTEM" wrappingWidth="447.107421875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#4a4a4a" layoutX="23.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome Officer" wrappingWidth="147.107421875">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#4a4a4a" layoutX="43.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Driver Database" wrappingWidth="147.107421875">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#989898" layoutX="43.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vehicle Database" wrappingWidth="147.107421875">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Polygon fill="#4a4a4a" layoutX="29.0" layoutY="220.0" points="-50.0, 40.0, 50.0, 40.0, 0.0, -60.0" rotate="90.0" scaleX="0.125" scaleY="0.125" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fill="#989898" layoutX="29.0" layoutY="271.0" points="-50.0, 40.0, 50.0, 40.0, 0.0, -60.0" rotate="90.0" scaleX="0.125" scaleY="0.125" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="WHITE" height="593.0" layoutX="19.0" layoutY="310.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="207.0">
+         <effect>
+            <DropShadow height="25.69" offsetY="4.0" radius="9.6725" width="15.0">
+               <color>
+                  <Color opacity="0.20000000298023224" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Text fill="#4a4a4a" layoutX="82.0" layoutY="336.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Requests" wrappingWidth="81.107421875">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <TextArea layoutX="28.0" layoutY="357.0" prefHeight="537.0" prefWidth="190.0" text="loren ipsum" />
+      <Button layoutX="29.0" layoutY="959.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="187.0" style="-fx-background-color: #5e5e5e;" text="Login" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow offsetY="2.0" radius="8.5" width="15.0">
+               <color>
+                  <Color opacity="0.4000000059604645" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <TextArea layoutX="276.0" layoutY="124.0" prefHeight="32.0" prefWidth="833.0" />
+      <Text fill="#4a4a4a" layoutX="276.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search Driver" wrappingWidth="121.107421875">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text fill="#989898" layoutX="288.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="License Number" wrappingWidth="121.107421875">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Button layoutX="1133.0" layoutY="124.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="125.0" style="-fx-background-color: #5e5e5e;" text="Add" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow offsetY="2.0" radius="8.5" width="15.0">
+               <color>
+                  <Color opacity="0.4000000059604645" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button layoutX="1280.0" layoutY="124.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="125.0" style="-fx-background-color: #5e5e5e;" text="Delete" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow offsetY="2.0" radius="8.5" width="15.0">
+               <color>
+                  <Color opacity="0.4000000059604645" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <TextArea layoutX="276.0" layoutY="189.0" prefHeight="665.0" prefWidth="1129.0" />
+      <Rectangle fill="WHITE" height="119.0" layoutX="276.0" layoutY="872.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="1129.0">
+         <effect>
+            <DropShadow height="25.69" offsetY="4.0" radius="9.6725" width="15.0">
+               <color>
+                  <Color opacity="0.20000000298023224" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Text fill="#4a4a4a" layoutX="293.0" layoutY="900.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Information" wrappingWidth="110.107421875">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="293.0" layoutY="918.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name: " wrappingWidth="77.107421875">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="293.0" layoutY="933.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name: " wrappingWidth="77.107421875">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="293.0" layoutY="948.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date of Birth:" wrappingWidth="87.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="363.0" layoutY="918.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kent" wrappingWidth="77.107421875">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="363.0" layoutY="933.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clark" wrappingWidth="77.107421875">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="380.0" layoutY="948.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1985/07/15" wrappingWidth="87.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="293.0" layoutY="962.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age:" wrappingWidth="30.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="322.0" layoutY="962.0" strokeType="OUTSIDE" strokeWidth="0.0" text="37" wrappingWidth="30.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="293.0" layoutY="977.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address:" wrappingWidth="57.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Text accessibleHelp="0" layoutX="352.0" layoutY="977.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10 Downing Street" wrappingWidth="127.0">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Text>
+      <Button layoutX="1258.0" layoutY="943.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="125.0" style="-fx-background-color: #5e5e5e;" text="Send" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow offsetY="2.0" radius="8.5" width="15.0">
+               <color>
+                  <Color opacity="0.4000000059604645" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1024.0" prefWidth="1440.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d9d9d9" height="934.0" layoutY="90.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="246.0" />
+      <Rectangle fill="#001f6d" height="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1440.0" />
+      <Text fill="WHITE" layoutX="959.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TRAFFIC CITATION AND REPORTING SYSTEM" wrappingWidth="447.107421875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#4a4a4a" layoutX="23.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome Officer" wrappingWidth="147.107421875">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#4a4a4a" layoutX="43.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Driver Database" wrappingWidth="147.107421875">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#989898" layoutX="43.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vehicle Database" wrappingWidth="147.107421875">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Polygon fill="#4a4a4a" layoutX="29.0" layoutY="220.0" points="-50.0, 40.0, 50.0, 40.0, 0.0, -60.0" rotate="90.0" scaleX="0.125" scaleY="0.125" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fill="#989898" layoutX="29.0" layoutY="271.0" points="-50.0, 40.0, 50.0, 40.0, 0.0, -60.0" rotate="90.0" scaleX="0.125" scaleY="0.125" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Rectangle arcHeight="10.0" arcWidth="10.0" fill="WHITE" height="593.0" layoutX="19.0" layoutY="310.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="207.0">
+         <effect>
+            <DropShadow height="25.69" offsetY="4.0" radius="9.6725" width="15.0">
+               <color>
+                  <Color opacity="0.20000000298023224" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Text fill="#4a4a4a" layoutX="82.0" layoutY="336.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Requests" wrappingWidth="81.107421875">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <TextArea layoutX="28.0" layoutY="357.0" prefHeight="537.0" prefWidth="190.0" text="loren ipsum" />
+      <Button layoutX="29.0" layoutY="959.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="187.0" style="-fx-background-color: #5e5e5e;" text="Login" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow offsetY="2.0" radius="8.5" width="15.0">
+               <color>
+                  <Color opacity="0.4000000059604645" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Rectangle fill="WHITE" height="502.0" layoutX="276.0" layoutY="122.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="1129.0">
+         <effect>
+            <DropShadow height="25.69" offsetY="4.0" radius="9.6725" width="15.0">
+               <color>
+                  <Color opacity="0.20000000298023224" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Button layoutX="290.0" layoutY="575.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="125.0" style="-fx-background-color: #5e5e5e;" text="Add" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow offsetY="2.0" radius="8.5" width="15.0">
+               <color>
+                  <Color opacity="0.4000000059604645" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d9d9d9" height="45.0" layoutX="276.0" layoutY="122.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="1129.0" />
+      <Text fill="#4a4a4a" layoutX="288.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Vehicle" wrappingWidth="95.107421875">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#4a4a4a" layoutX="288.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Owner Last Name" wrappingWidth="147.107421875">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <TextField layoutX="288.0" layoutY="194.0" prefHeight="32.0" prefWidth="260.0" />
+      <TextField layoutX="569.0" layoutY="194.0" prefHeight="32.0" prefWidth="260.0" />
+      <TextField layoutX="288.0" layoutY="254.0" prefHeight="32.0" prefWidth="1087.0" />
+      <Text fill="#4a4a4a" layoutX="288.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address 1" wrappingWidth="59.107421875">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <TextField layoutX="288.0" layoutY="314.0" prefHeight="32.0" prefWidth="1087.0" />
+      <Text fill="#4a4a4a" layoutX="288.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address 2" wrappingWidth="59.107421875">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text fill="#4a4a4a" layoutX="288.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0" text="City" wrappingWidth="59.107421875">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <TextField layoutX="288.0" layoutY="373.0" prefHeight="32.0" prefWidth="260.0" />
+      <TextField layoutX="569.0" layoutY="373.0" prefHeight="32.0" prefWidth="260.0" />
+      <Text fill="#4a4a4a" layoutX="569.0" layoutY="368.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Province" wrappingWidth="59.107421875">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text fill="#4a4a4a" layoutX="290.0" layoutY="455.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registration Number" wrappingWidth="107.107421875">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <TextField layoutX="289.0" layoutY="457.0" prefHeight="32.0" prefWidth="260.0" />
+      <TextField layoutX="570.0" layoutY="457.0" prefHeight="32.0" prefWidth="260.0" />
+      <Button layoutX="424.0" layoutY="575.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="125.0" style="-fx-background-color: #5e5e5e;" text="Cancel" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow offsetY="2.0" radius="8.5" width="15.0">
+               <color>
+                  <Color opacity="0.4000000059604645" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <TextField layoutX="1036.0" layoutY="194.0" prefHeight="32.0" prefWidth="260.0" />
+      <Text fill="#4a4a4a" layoutX="1036.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date of Birth" wrappingWidth="69.107421875">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <TextField layoutX="1316.0" layoutY="194.0" prefHeight="32.0" prefWidth="59.0" />
+      <Text fill="#4a4a4a" layoutX="1316.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age" wrappingWidth="39.107421875">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Button fx:id="MakePaymentButton1" layoutX="288.0" layoutY="663.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="260.0" style="-fx-background-color: #8cb969;" text="New Vehicle Added" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow offsetY="2.0" radius="8.5" width="15.0">
+               <color>
+                  <Color opacity="0.4000000059604645" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Text fill="#4a4a4a" layoutX="569.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Owner First Name" wrappingWidth="147.107421875">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text fill="#4a4a4a" layoutX="570.0" layoutY="455.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vehicle Color" wrappingWidth="107.107421875">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <TextField layoutX="853.0" layoutY="457.0" prefHeight="32.0" prefWidth="260.0" />
+      <Text fill="#4a4a4a" layoutX="853.0" layoutY="455.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vehicle Type" wrappingWidth="107.107421875">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text fill="#4a4a4a" layoutX="289.0" layoutY="513.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vehicle Make" wrappingWidth="107.107421875">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <TextField layoutX="288.0" layoutY="515.0" prefHeight="32.0" prefWidth="260.0" />
+      <TextField layoutX="570.0" layoutY="515.0" prefHeight="32.0" prefWidth="260.0" />
+      <Text fill="#4a4a4a" layoutX="570.0" layoutY="513.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vehicle Model" wrappingWidth="107.107421875">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
